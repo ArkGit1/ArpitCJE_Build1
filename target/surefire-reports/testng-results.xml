@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="43" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+    <groups>
+      <group name="include-test-one">
+        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:testScripts.RegularExpressionGroupTest@546a03af]" name="testMethodOne" class="testScripts.RegularExpressionGroupTest"/>
+      </group>
+      <group name="include-test-two">
+        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:testScripts.RegularExpressionGroupTest@546a03af]" name="testMethodTwo" class="testScripts.RegularExpressionGroupTest"/>
+      </group>
+    </groups>
+    <test name="Group of group Test" duration-ms="43" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+      <class name="testScripts.RegularExpressionGroupTest">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:testScripts.RegularExpressionGroupTest@546a03af]" name="testMethodOne" duration-ms="13" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:testScripts.RegularExpressionGroupTest@546a03af]" name="testMethodTwo" duration-ms="1" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="Parallel tests" duration-ms="11" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+    <groups>
+    </groups>
+    <test name="Test Two" duration-ms="11" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+      <class name="testScripts.ParallelSuiteTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testScripts.ParallelSuiteTest@4cdbe50f]" name="beforeTest" is-config="true" duration-ms="6" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Two]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testScripts.ParallelSuiteTest@4cdbe50f]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:testScripts.ParallelSuiteTest@4cdbe50f]" name="testMethodOne" duration-ms="1" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.ParallelSuiteTest@4cdbe50f]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.ParallelSuiteTest@4cdbe50f]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Test One" duration-ms="10" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+      <class name="testScripts.ParallelSuiteTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testScripts.ParallelSuiteTest@1fbc7afb]" name="beforeTest" is-config="true" duration-ms="5" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test One]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testScripts.ParallelSuiteTest@1fbc7afb]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:testScripts.ParallelSuiteTest@1fbc7afb]" name="testMethodOne" duration-ms="1" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.ParallelSuiteTest@1fbc7afb]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.ParallelSuiteTest@1fbc7afb]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-12-05T00:28:25Z" finished-at="2018-12-05T00:28:25Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
